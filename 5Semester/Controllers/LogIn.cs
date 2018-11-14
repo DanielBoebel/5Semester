@@ -15,5 +15,10 @@ namespace Semester.Controllers
         {
             return View();
         }
+
+
+		public IActionResult Index(int test){
+			return View();
+		}
     }
 }
