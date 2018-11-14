@@ -13,5 +13,11 @@ namespace _5Semester.Controllers
             Console.WriteLine("Send mail");
             return View();
         }
+
+        public IActionResult Lol()
+        {
+            Console.WriteLine("Send Daniel");
+            return View();
+        }
     }
 }
