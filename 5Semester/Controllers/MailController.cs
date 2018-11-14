@@ -19,5 +19,8 @@ namespace _5Semester.Controllers
             Console.WriteLine("Send Daniel");
             return View();
         }
+		public IActionResult Daniel(){
+			return View();
+		}
     }
 }
